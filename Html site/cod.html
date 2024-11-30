@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Gift List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #ff5733;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffcc00;
+      padding: 10px;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #ff5733;
+      color: white;
+    }
+    .container {
+      padding: 20px;
+    }
+    .featured {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .gift-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Christmas Gift List</h1>
+    <p>Find the perfect gift for everyone on your list!</p>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Wishlist</a>
+    <a href="#">Contact</a>
+  </nav>
+  
+  <div class="container">
+    <!-- Featured Gifts -->
+    <section>
+      <h2>Featured Gifts</h2>
+      <div class="featured">
+        <!-- First Gift - Flipper Zero -->
+        <div class="gift-item">
+          <img src="C:\Users\Victor\Desktop\Html site\Flipper zero\top.webp" style="width: 100%; height: auto;">
+          <p>Flipper Zero</p>
+          <p>$169.99</p>
+          <a href="https://shop.flipperzero.one/?_gl=1*1nss7fm*_ga*MTEyMzE0ODg4NC4xNzMyOTcxMTUx*_ga_GM78S6JK0K*MTczMjk3MTE1MC4xLjAuMTczMjk3MTE1MC42MC4wLjA." target="_blank">Buy Now</a>
+        </div>
+        
+        <!-- Second Gift - Smartgo 4K Action Camera -->
+        <div class="gift-item">
+          <img src="C:\Users\Victor\Desktop\Html site\Camera\images.jpeg" alt="Smartgo 4K Action Camera" style="width: 100%; height: auto;">
+          <p>Smartgo 4K Action Camera</p>
+          <p>$149.99</p>
+          <a href="https://www.emag.ro/camera-de-actiune-multifunctionala-smartgo-cam-idealstore-ecran-dublu-color-tactil-ips-4k-ultra-hd-60-fps-120fps-hdmi-waterproof-android-ios-photo-burst-looping-unghi-de-170-anti-shake-senzor-de-imagi/pd/D0J54KYBM/?ref=fam#Negru-carbon" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Third Gift - Armani Emporio Fragrance -->
+        <div class="gift-item">
+          <img src="C:\Users\Victor\Desktop\Html site\Armani\armani-emporio-stronger-with-you-eau-de-toilette-pentru-barbati___171020.webp" style="width: 100%; height: auto;">
+          <p>Armani Emporio Stronger With You Eau de Toilette</p>
+          <p>$90.00</p>
+          <a href="https://www.notino.ro/armani/emporio-stronger-with-you-eau-de-toilette-pentru-barbati/" target="_blank">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wishlist Section -->
+    <section>
+      <h2>Your Wishlist</h2>
+      <p>Add your favorite gifts to your wishlist and keep track of your Christmas shopping!</p>
+      <ul>
+        <li>Flipper Zero <button>Add to Wishlist</button></li>
+        <li>Smartgo 4K Action Camera <button>Add to Wishlist</button></li>
+        <li>Armani Emporio Fragrance <button>Add to Wishlist</button></li>
+      </ul>
+    </section>
+  </div>
+  
+  <footer>
+    <p>Christmas Gift List &copy; 2024 | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
